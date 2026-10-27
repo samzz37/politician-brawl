@@ -1,0 +1,10 @@
+{
+  "name": "politician-brawl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A silly cross-platform online party brawler for up to six players per room.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1" }
+}
